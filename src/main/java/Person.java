@@ -3,7 +3,8 @@ public class Person {
   private double højde;
   private int alder;
 
-  public Person(double højde) {
+  public Person(int alder, double højde) {
+    this.alder = alder;
     this.højde = højde;
   }
 
@@ -15,7 +16,12 @@ public class Person {
     this.højde = højde;
   }
 
-  public void harFødselsdag() {
+  public int getAlder() {
+    return alder;
+  }
 
+  public void harFødselsdag() {
+    alder++;
+    //alder = alder + 1;
   }
 }
