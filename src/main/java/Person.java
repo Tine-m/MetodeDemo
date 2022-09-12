@@ -1,9 +1,9 @@
 public class Person {
 
-  private double højde;
+  private double højdexxx;
 
   public Person(double højde) {
-    this.højde = højde;
+    this.højdexxx = højde;
   }
 
  public Person() {
